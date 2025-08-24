@@ -1,0 +1,477 @@
+{
+  "first": {
+    "welcome": "Welcome",
+    "holisticAnimalFarming": "Holistic Animal Farming",
+    "aimingNutritionalSecurity": "Aiming Nutritional Security of the Farmers",
+    "drYravindraReddy": "Dr. Y. Ravindra Reddy"
+  },
+  "myDrawer": {
+    "welcome": "Welcome",
+    "aboutUs": "About Us",
+    "animals": "Animals",
+    "recentWorks": "Recent Works",
+    "researchAreas": "Research Areas",
+    "byproductsOfCow": "Byproducts of Cow",
+    "technologies": "Technologies",
+    "teaching": "Teaching",
+    "extention": "Extention",
+    "indianHeritage": "Indian Heritage",
+    "farmerHelpDesk": "Farmer HelpDesk",
+    "publication": "Publication",
+    "contact": "Contact",
+    "feedback": "Feedback",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "recentWorks": {
+    "sankaraJaatiPashuvula": "Sankara jaati pashuvula yajamanyam",
+    "azollaAndSheetnutCattleSheepProductionSystem": "Azolla and Sheetnut Cattle Sheep Production System",
+    "paadiPashuvulaPempakam": "Paadi Pashuvula Pempakam",
+    "modelTrainingCourse": "Model Training Course",
+    "pungunurCattle": "Pungunur Cattle",
+    "nelloreSheep": "Nellore Sheep",
+    "integratedFarmingSystem": "Integrated Farming System (sheep + goat)",
+    "sahiwalCattle": "Sahiwal Cattle",
+    "chaffCutterDemo": "Chaff Cutter Demo",
+    "ongoleCowWithCalf": "'Cattle' Ongole Cow with its Calf.",
+    "cattleJersyXSahiwalCrossbred": "'Cattle' Jersey x Sahiwal Crossbred Cow",
+    "azollaGoodGrowth": "'Azolla' Good Growth",
+    "azollaCollectionFromPit": "'Azolla' Collection of Azolla from Pit",
+    "sheepGrazingForAtleast": "'Sheep' Grazing for atleast 6 to 8 hours"
+  },
+  "azolla": {
+    "demonstrationOfAzollaPitPreparation": "Demonstration of Azolla pit preparation",
+    "coveringOfPlasticSheetInAzollaPit": "Covering of plastic sheet in Azolla pit",
+    "addingAzollaCultureToPit": "Adding Azolla culture to pit",
+    "coveringOfAzollaPitWithMosquitoNet": "Covering of Azolla pit with Mosquito net to prevent tree leaves into Azolla pit",
+    "fullyGrownAzolla": "Fully grown Azolla",
+    "matOfAzolla": "Mat of Azolla",
+    "feedingOfAzollaWithConcentrateMixture": "Feeding of Azolla with concentrate mixture by crossbred cow.",
+    "feedingOfAzollaToRamlambs": "Feeding of Azolla to Ramlambs.",
+    "feedingToPoultry": "Feeding to poultry.",
+    "azollaInPaddyField": "Azolla in Paddy Field.",
+    "largeScaleProductionOfAzolla": "Large scale production of Azolla.",
+    "trainingOnAzollaProduction": "Training on Azolla production.",
+    "azollaProductionTechnologies": "Azolla Production Technologies",
+    "it": "It",
+    "itIsNothingButAFreeFloatingWaterFern": "is nothing but a free floating water fern consisting of a short, branched, floating stem, bearing roots which hang down in the water. It's kind of greenfodder grown on water surface."
+  },
+  "byproducts": {
+    "bioGas": "Bio Gas",
+    "goMutraArk": "Go Mutra Ark",
+    "vermiComposting": "Vermi Composting"
+  },
+  "extention": {
+    "bookForSaleInTelugu": "Book for sale in Telugu(Gorrela Pempakam lo Melakuvalu)(100 + 20 Postage Cost = 120/-) తెలుగులో అమ్మకానికి ఉన్న పుస్తకం(గొర్రెల పెంపకం లో మెలకువలు)(100 + 20 తపాలా ఖర్చు = 120/-)",
+    "accountNo": "Account No: 32963590053",
+    "name": "Name: YEDDULA RAVINDRA REDDY",
+    "ifsc": "Ifsc: SBIN0010106",
+    "branchCode": "Branch Code: 10106"
+  },
+  "dashboard": {
+    "veterinary": "Veterinary",
+    "veterinaryDescription": "Veterinary is a branch of medical science that deals with the prevention, management, diagnosis and treatment of diseases, disorders and injuries in animals. Along with this it deals with research and production development on animal husbandry, breeding, reproduction and nutrition.",
+    "testimonials": "Testimonials",
+    "testimonialsDescription": "Every animal has his or her story, his or her thoughts, daydreams, and interests. All feel joy and love, pain and fear, as we now know beyond any shadow of a doubt. All deserve that the human animal afford them the respect of being cared for with great consideration for those interests or left in peace. Ingrid Newkirk― British Activist"
+  },
+  "hydroponics": {
+    "variousStagesOfHydroponicGrassProduction": "Various Stages of Hydroponic Grass Production",
+    "sproutedMaizeGrain": "Sprouted Maize Grain",
+    "sproutedMaizeGrassInTrays": "Sprouted Maize Grass in Trays",
+    "hydrophonicGrassTraysInRows": "Hydrophonic Grass Trays in Rows",
+    "readyToEatHydrophonicMaizeGrass": "Ready to Eat Hydrophonic Maize Grass",
+    "shadedWetCoveringHydrophonicMaizeProduction": "Shaded Wet Covering Hydrophonic Maize Production",
+    "shadedWetCoveringHydrophonicMaizeProduction2": "Shaded Wet Covering Hydrophonic Maize Production",
+    "hydroponicsTechnologies": "Hydroponics Technologies",
+    "hydroponicsFodder": "Hydroponics fodder",
+    "hydroponicsDescription": " is production of greens with little moisture and nutrients to the growing plants. Hydroponic systems produce a greater yield over a shorter period of time in a smaller area than traditional fodder crops. The technology is mostly useful to the landless and marginal farmers of peri-urban where they have very less space for growing of fodders. The grains that are suitable are cereal grains such as Maize, Barley, Oats, Wheat, Jowar and legumes such as Lucerne, Clover and Cowpea."
+  },
+  "indianHeritage": {
+    "india": "'India'",
+    "indianHeritageDescription": " is inherited with 34 breeds of Indigenous cattle over generations. The Indigenous breeds are selected by nature for their heat tolerance, disease resistance and conversion of crop residues into wholesome milk. There is dire need to protect all the Indigenous breeds. The following pictures will give an idea of some of the Indigenous breeds.",
+    "kankrejCattle": "Kankrej Cattle",
+    "kankrejCattleInFestivals": "Kankrej Cattle in Festivals",
+    "pungunurCattle": "Pungunur Cattle",
+    "punganurCattleFamily": "Punganur Cattle Family",
+    "kankrejInCompantionWithPunganur": "Kankrej in Compantion with Punganur",
+    "ongoleBulls": "A Pair of Ongole Bulls",
+    "ongoleBreedKnownForItsMajesty": "Ongole Breed Known for its Majesty"
+  },
+
+  "aboutus": {
+    "drYravindraReddy": "Dr. Y. Ravindra Reddy",
+    "motivatingAndTalented": "Motivating and Talented",
+    "livestockProductionManagement": "Livestock Production Management",
+    "professorDrivenToInspireStudents": "Professor is working to inspire students to pursue academic and personal excellence. Consistently strive to create a challenging and engaging learning environment that enables students to become lifelong learners and practitioners. Has",
+    "has20YearsOfExperience": "Has 20 years of experience in Dairy Cattle and Sheep production.",
+    "detailsOf": "Education",
+    "academic": "Qualifications",
+    "qualifications": "Details",
+    "dateOfJoining": "Date of Joining",
+    "dateOfLeaving": "Date of Leaving",
+    "nameOfSchool": "School / College Name",
+    "nameOfBoard": "Board Name",
+    "andhraPradeshAgrlUniversity": "Andhra Pradesh Agricultural University",
+    "september1988": "September - 1988",
+    "august1993": "August - 1993",
+    "july1993": "July - 1993",
+    "october1995": "October -1995",
+    "march2005": "March - 2005",
+    "november2008": "November - 2008",
+    "collegeOfVetyScienceTirupati": "Veterinary Science College, Tirupati",
+    "collegeOfVetyScienceRajendraNagar": "Veterinary Science College, Rajendra Nagar",
+    "svvuTirupati": "SVVU Tirupati"
+  },
+  "animals": {
+    "DairyCattle": "Dairy | Cattle ",
+    "Sheep": "Sheep "
+  },
+  "sheep": {
+    "sheepBreeding": "Sheep Breeding",
+    "scientificPractices": "Scientific or best management practices",
+    "sheepDiseases": "Sheep Diseases"
+  },
+  "sheepBreeding": {
+    "apron": "Apron",
+    "tryingOfApron": "Trying of Apron to Ram",
+    "apronRam": "Apron Ram",
+    "breathPaintingOfApronedRam": "Breath painting of Aproned Ram",
+    "detectionOfEweInHeatByRam": "Detection of ewe in heat by Ram",
+    "eweInHeatWithBackPainted": "Ewe in heat with back painted",
+    "leadingRamInFlockForHeatDetection": "Leading Ram in flock for heat detection.",
+    "handMating": "Hand mating.",
+    "sheep": "Sheep",
+    "sheepBreedingAndHeatDetection": "Sheep Breeding & Heat Detection",
+    "sheepComes": "comes into heat during March- April, June-July, Sep-Oct. About 60-70% of animals come into heat during June-July. The rest of animals come to heat during March-April and Sep-Oct. Detection of heat in sheep is difficult by external Signs. Detection of heat can be done more effectively by using Aproned Ram. The following pictures show various steps in preparation of Aproned Ram (Male) and breeding of females (ewes). The Breeding Ram should be changed at least every two years. The good idea is try to exchange your ram with other persons sheep flock in the same village / other villages / sell his own ram get a new ram. Do not use the males that are born in your flock as future breeding rams."
+  },
+  "sheepDiseases": {
+    "sheepPox": "Sheep Pox",
+    "tetanus": "Tetanus",
+    "tetanusBulgedEyeBall": "Tetanus-bulged eye ball and sawhorse appearance.",
+    "diseases": "Diseases",
+    "morbidityAndMortality": " Morbidity and mortality",
+    "areTheTwoImportantFactors": " are the two important factors resulting in heavy losses in sheep production and improvement programmes. Prevention is always better than cure as it is a lot cheaper. This has special significance with sheep as they seem to respond less to treatment when sick than other livestock species."
+  },
+  "bestPractices": {
+    "adequateFeeding": "Adequate feeding and watering space.",
+    "wateringAtAllTimings": "Watering at all timings is needed",
+    "creepFeeding": "Creep feeding at one month for better growth.",
+    "grazing": "Grazing for alleast 6 to 8 hours",
+    "groupFeeding": "Group feeding of same age group",
+    "raisedFloorSystem": "Raised / slatted floor system of housing",
+    "semiIntensiveManagement": "Semi intensive management",
+    "stagnantWater": "Do not allow drinking in stagnant water",
+    "bestManagementPractices": "Best Management Practices",
+    "bestManagementPracticesDescription": "The best management practices include providing adequate in housing of sheep and grazing for period of 6-8 hours per day. The feeding of creep feed, colostrum, neem leaves etc. for better growth of lambs and the lambs should be kept in the shed or enclosure for atleast 2 1/2 month and not allowed for grazing with mothers. Do not allow animals for watering in stagnant ponds/lakes, water tanks."
+  },
+  "foddersForSheep": {
+    "fodderTrees": "Fodder trees",
+    "subabulTrees": "Subabul trees",
+    "leftHedgeLucerneRightSubabul": "Left hedge-lucerne Right Subabul",
+    "siratro": "Siratro",
+    "horseGram": "Horse gram",
+    "leftAdaviveopaRightVepaOrNeem": "Left Adaviveopa Right Vepa or Neem",
+    "indigenousGrassesInMangoOrchards": "Indigenous grasses in mango orchards",
+    "hedgeLucerneWithAvisa": "Hedge-Lucerne and with Avisa(Sesbania) on both sides",
+    "hedgeLucerne": "Hedge-Lucerne",
+    "guineaGrass": "Guinea-grass",
+    "lucerne": "Lucerne",
+    "foddersForSheep": "Fodders for Sheep",
+    "foddersForSheepDescription": " should be short in height. The different systems of fodder production for sheep can be obtained from indigenous grasses, fodder trees, silvipasture, hortipasture etc. The types of fodder suitable are show below."
+  },
+  "goatHousing": {
+    "goatHousing": "Sheep | Goat Housing",
+    "scientificHousing": "Scientific Housing",
+    "sheepShed": "Sheep Shed",
+    "coveredAreaInSheepShed": "Covered area in sheep shed",
+    "fullViewOfGoodSheepShed": "Full view of good sheep shed",
+    "housingAtFieldLevel": "Housing at field level",
+    "linkFencing": "Link fencing",
+    "tatchedShedWithLeastCost": "Tatched shed with least cost",
+    "slottedFlooring": "Slotted flooring",
+    "theHousing": " The housing of sheep",
+    "isProvided": "is provided to protect from rains, heat in summer season. It can be provided at cheaper cost by procuring materials from local area. Some of the pictures shown below give an idea of different materials used in housing. The latest type of housing for sheep is slatted floor system but it is very costly."
+  },
+  "healthCare": {
+    "timelyVaccination": "Timely Vaccination of goat",
+    "vaccinationWithSterilizedNeedle": "Vaccination with sterilized Needle",
+    "dippingTank": "Dipping Tank",
+    "dipSolutionForDippingOfSheep": "Dip solution for dipping of sheep",
+    "standingPen": "Standing pen",
+    "dippingTankProper": "Dipping Tank Proper",
+    "drainingPen": "Draining pen",
+    "sprayingForTickController": "Spraying for Tick controller",
+    "dewormingAndDeticking": "Deworming & Deticking",
+    "healthCare": "The healthcare of sheep",
+    "healthCareDescription": "can be taken care of buy proper Deworming & Deticking. While Deworming of sheep flock , correct dose and type of drug is most important. Under dosing and over dosing is more harmful. Compulsorily take advice from Veterinary doctor regarding selection and dosage of drug. The following practices will help in maintaining heath and production of flock."
+  },
+
+  "contact": {
+    "drYravindraReddy": "Dr. Y.RavindraReddy",
+    "deptOfLivestockProductionManagement": "Dept., of Livestock Production Management",
+    "collegeOfVeterinaryScience": "College of Veterinary Science",
+    "tirupatiAndhraPradesh": "Tirupati, Andhra Pradesh",
+    "india517502": "India - 517502",
+    "SendAText": "Send a Text / Message"
+  },
+  "farmerHelpDesk": {
+    "theIdeaIsToHelpTheFarmer": " The idea is to help the farmer to browse the different materials (fodder seeds, mineral bricks , milking machines etc) as a ready reckoner.",
+    "fodderSeedSupplier": "Fodder Seed Supplier",
+    "mineralBlocks": "Mineral Blocks",
+    "nationalDairyDevelopmentBoard": "National Dairy Development Board",
+    "clickHere": "Click Here",
+    "click": "Click"
+  },
+  "feedBack": {
+    "feedback": "Feedback",
+    "subject": "Subject",
+    "enterFeedback": "Enter Feedback",
+    "submit": "Submit",
+    "thankYou": "Thank you for submitting valuable feedback"
+  },
+  "dairy": {
+    "dairyProject": "Dairy Project",
+    "dairyfarming": "Dairy farming is one of the most economically viable self-employment enterprises attracting the attention of educated unemployed youth, small, marginal and landless laborers as main/subsidiary occupation to agriculture.",
+    "dairyProjectCost": "Dairy Project (Cost)",
+    "tmrFeeding": "TMR feeding",
+    "dairyProject2": "Dairy Project",
+    "organicFarming": "Organic Farming",
+    "punganurCattle": "Punganur Cattle"
+  },
+
+  "integratedFarming": {
+    "integratedFarmingSystem": "Integrated Farming System(Rice + Dairy + sugarcane)",
+    "integratedFarmingSystem2": "Integrated Farming System(Beetel vine + fodders + cocount)",
+    "integratedFarmingSystem3": "Integrated Farming System(Subabul + fodders)",
+    "integratedFarmingSystem4": "Integrated Farming System(Agri(Groundnut) + Horticulture(Marigold) + Hybrid napier grass)",
+    "silvipastureSystem": "Silvipasture system",
+    "cattleSheepFarming": "Cattle + Sheep farming",
+    "mangoOrchardGroundnut": "Mango orchard + Groundnut",
+    "integratedFarmingSystem5": "Integrated Farming System(Dairy + fodders)",
+    "integratedFarmingSystem6": "Integrated Farming System(Sheep + goat)",
+    "integratedFarmingSystem7": "Integrated Farming System(Paddy + jowar)",
+    "horticultureSheep": "Horticulture + sheep",
+    "hortipasture": "Hortipasture",
+    "integratedFarmingSystem8": "Integrated Farming System(Animals + Sheep farming)",
+    "integratedFarmingSystem9": "Integrated Farming System(Mango orchard + Groundnut)",
+    "integratedFarmingSystem10": "Integrated Farming System(Dairy + fodders)",
+    "integratedFarmingSystem11": "Integrated Farming System(Sheep + goat)",
+    "integratedFarmingSystem12": "Integrated Farming System(Paddy + jowar)",
+    "horticultureSheep2": "Horticulture + sheep",
+    "hortipasture2": "Hortipasture",
+    "integratedFarming": "Integrated Farming",
+    "systemIsAnInnovative": "system is an innovative method of promoting the sustainable use of available natural resources incorporating livestock activities with traditional agricultural practices in a holistic manner suitable to local conditions. It is method of more efficient and effective natural resource management allowing nutrient recycling and improved diversification."
+  },
+  "pfizer": {
+    "experimentalShed": "Experimental Shed",
+    "selectionOfAnimals": "Selection of animals",
+    "identificationOfAnimals": "Identification of animals",
+    "pouringOfDrugOnAnimals": "Pouring of drug on animals",
+    "treatmentOfAnimals": "Treatment of animals",
+    "objective": "The Objective",
+    "ofthisStudy": "of this study is to measure the Fipronil residues in bovine milk from lactating dairy cows at various withdrawal times following topical administration of Fipronil @1.0 mg/Kg in order to define the residue depletion profile. Fipronil, an acaricide can be used to prevent, control and treat the tick infestation in the dairy farms.",
+    "totalOf15Jersey": "A total of 15 Jersey Sahiwal crossbred cows of second parity in fourth month of lactation cycle of Department of Livestock Production Management, College of Veterinary Science, Tirupati were utilized for the study purpose. No signs of illness or infection especially mastitis and milk sample from the animals will be checked for SCC 400,000 in the composite 4-quarter milk sample, prior to start of the study."
+  },
+  "profile": {
+    "details": "Details",
+    "name": "Name :",
+    "email": "Email :",
+    "phone": "Phone Number :"
+  },
+  "publication": {
+    "publicationMessage": "Publications will be uploaded soon."
+  },
+  "researchAreas": {
+    "integratedFarming": "Integrated Farming",
+    "pfizerDrugDepletionStudies": "Pfizer Drug Depletion Studies"
+  },
+  "teaching": {
+    "drYravindraReddy": "Dr. Y. Ravindra Reddy",
+    "everyDayYoullGetTheChance": "Every day you’ll get the chance to inspire young people",
+    "andUseYourSkills": "and use your skills to give something back – making sure every pupil gets the same access to a quality education and the opportunity to succeed.",
+    "detailsOf": "Details of ",
+    "employment": "Employment ",
+    "record": "record",
+    "designation": "Designation",
+    "dateOfJoining": "Date of Joining",
+    "dateOfLeaving": "Date of Leaving",
+    "employment2": "Employment",
+    "professor": "Professor",
+    "associateProfessor": "Associate Professor",
+    "assistantProfessor": "Assistant Professor",
+    "scientist": "Scientist",
+    "tillDate": "Till Date",
+    "years": "Years",
+    "months": "Months"
+  },
+  "technologies": {
+    "hydroponics": "Hydroponics",
+    "azolla": "Azolla"
+  },
+  "biogas": {
+    "bioGas": "Bio-Gas",
+    "bioGasDescription": "Bio gas generally refers to a mixture of various gases produced by the breakdown of organic matter in the absence of oxygen. Bio gas is produced from raw materials such as agricultural waste, manure, municipal waste, plant material, sewage, green waste, or food waste. Bio gas is a renewable energy source.",
+    "smallScale": "Small Scale Bio Gas Unit",
+    "bioGasSlurry": "Bio Gas Slurry",
+    "largeScale": "Large Scale Bio Gas Unit",
+    "powerFrom": "Power from Bio Gas",
+    "bioGasUnit": "Bio Gas Unit",
+    "demonstrationOfBioGasUnit": "Demonstration of Bio Gas Unit"
+  },
+  "calfRearing": {
+    "calfRearing": "Calf Rearing",
+    "sahiwalCalves": "Sahiwal calves"
+  },
+  "calfRearingg": {
+    "gradedMurrahBuffaloeWithNewBornCalf": "Graded Murrah buffaloe with new born calf",
+    "newBornCalves": "New born buffaloe calves",
+    "colostrumFeeding": "Colostrum feeding of new born calf",
+    "protectionOfCalves": "Protection of calves in winter with paddy straw bedding",
+    "identificationOfCalves": "Identification of calves",
+    "adequateVentilation": "Adequate ventilation",
+    "adequateSpace": "Adequate space for exercising calves",
+    "groomingOfCalves": "Grooming of calves",
+    "shinyHairCoat": "Shiny hair coat",
+    "dailyCleaning": "Daily cleaning of calves yard.",
+    "feedingChaffedGreens": "Feeding chaffed greens",
+    "protectedRailing": "Protected Railing for feed manager",
+    "groupingOfSameAgedCalves": "Grouping of same aged calves",
+    "brickFlooring": "Brick flooring in calves shed",
+    "healthyHarianaCalves": "Healthy Hariana calves",
+    "hygienicCalfYard": "Hygienic calf Yard",
+    "calfRearingGoodPractice": "Calf rearing good practice.",
+    "allCalves": "All calves, including bobbies, must be adequate fresh colostrum within the first 24 hours of life and should be fed colostrum, or a colostrum substitute, for at least the first four days of life. Always handle calves gently and with care. Do not allow anyone to throw, hit or drag a calf at any time."
+  },
+  "cattleList": {
+    "dairyProject": "Dairy Project (Cost)",
+    "environmentalDairyHousing": "Environmental Dairy Housing",
+    "housing": "Housing",
+    "organicDairy": "Organic Dairy",
+    "selectionOfGoodAnimals": "Selection of Good Animals",
+    "wallowingTank": "Wallowing Tank",
+    "calfRearing": "Calf Rearing",
+    "cleanMilkProduction": "Clean Milk Production",
+    "feeding": "Feeding",
+    "heatDetection": "Heat Detection",
+    "diseases": "Diseases",
+    "preventiveHealthCare": "Preventive Health Care"
+  },
+  "cleanMilkProduction": {
+    "cleanMilkProduction": "Clean Milk Production",
+    "cleaningOfShedsBeforeMilking": "Cleaning of sheds before milking",
+    "milkingWithCleanHands": "Milking with clean hands and dress",
+    "milkingInHoodedPails": "Milking in hooded pails",
+    "correctMethodOfFullHandMilking": "Correct method of full hand milking",
+    "hygienicStainlessSteelCans": "Hygienic stainless steel cans",
+    "milk": "Milk",
+    "isTheMainProduct": " is the main product from a dairy enterprise, produced basically as food for human consumption for human consumption. A dairy farmer must therefore aim at maximising on milk output from his/her dairy herd. At the same time the farmer must ensure that milk is produced in clean and hygienic conditions so that it is fit for human consumption. "
+  },
+  "diseases": {
+    "diseases": "Diseases",
+    "theDiseases": "  The Diseases of dairy cattle are bacterial, viral, parasitic etc. The following pictures are occurrence of Foot and Mouth Diseases in Dairy Cattle."
+  },
+  "environmentalDairyHousing": {
+    "environmentalDairyHousing": "Environmental Dairy Housing",
+    "technologies": "Technologies",
+    "integratedApproach": "An integrated approach",
+    "wasMadeInTheModelProject": "was made in the model project on the “Environmentally Controlled Housing for Dairy cattle “designed at Dairy Experimental Station,dept. of LPM, College of Veterinary Science, under Sri Venkateswara Veterinary University, Tirupati.",
+    "theEnvironmentallyControlledDairyHousingModel": "The Environmentally Controlled Dairy Housing Model was designed by giving due consideration to orientation of shed, roof projection and microenvironment of the animal by providing cooling system besides comfort to the animal and reducing the labour costs involve in feeding and management. The various components of the designed model installed are",
+    "theVarious": "The various components of the designed model installed are",
+    "freeStallSystem": "Free stall system",
+    "rubberizedMattress": "Rubberized Mattress",
+    "coolingPads": "Cooling Pads",
+    "exhaustFans": "Exhaust Fans",
+    "automaticWaterers": "Automatic Waterers",
+    "automaticConcentrateDispenserSystem": "Automatic Concentrate dispenser system",
+    "controlUnitContainingTemperatureSensor": "Control unit containing temperature sensor",
+    "waterTankForRecirculation": "Water tank (outside the shed) for recirculation of water",
+    "drinkingWaterTank": "Drinking water tank",
+    "feedBin": "Feed bin"
+  },
+
+  "feeding": {
+    "feeding": "Feeding",
+    "wateringOfAnimals": "Watering of animals (Rice washings is also a good practice).",
+    "greenFodderOnTheBunds": "Green fodder on the bunds (Its only a supplementation to green fodder )",
+    "chaffedGreenMaizeFodder": "Chaffed green Maize fodder.",
+    "paddyStrawFeeding": "Paddy straw feeding",
+    "hayStack": "Hay stack (Protect from fire hazards)",
+    "individualFeedingOfChaffedHybridNapier": "Individual feeding of chaffed Hybrid Napier.",
+    "correctSizeOfChaffedMaize": "Correct size of chaffed Maize.",
+    "sunflowerCake": "Sunflower cake.",
+    "unchaffedGreenFodderNotAGoodPractice": "Unchaffed green fodder not a good practice.",
+    "feedingDescription": "Feeding accounts for 70% of the total cost of the milk production.The feeding of dairy animal should consist of green fodders, dry fodders and concentrate mixture. These three types of feeds should be fed every day. The daily allowance of feeding per animal is approximately 25-30 kg of green fodder, 6-8 kg of dry fodder (paddy straw) and 2.5 kg of concentrate mixture is required for every kg of milk produced by the animal."
+  },
+
+  "goMutraArk": {
+    "goMutraArk": "GoMutra Ark",
+    "isAnAgeOldAyurvedicTreatmentMethod": "GoMutra Ark is an age old ayurvedic treatment method prepared from Indigenous(Indian) cattle urine. Different methods of preparation of Gomutra Ark are shown below."
+  },
+  "heatDetection": {
+    "heatDetection": "Heat Detection",
+    "differentStagesOfHeat": "Different stages of heat",
+    "aGood": "A good",
+    "recordKeepingGivesAnIdea": "record keeping gives an idea when the cow is expected to come in heat based on the fact that the average cow comes in heat every 21 days. A cow should be observed twice daily, once in early morning and once in the late evening for signs of heat between 17-18 days after last oestrus cycle. Some of the heat symptoms or bellowing, frequent urination, smelling other cows white mucous discharge from vulva and attempts to mount other cows."
+  },
+  "housing": {
+    "housing": "Housing",
+    "longViewOfAnimalShed": "Long view of animal shed",
+    "tailToTailHousingAsbestosRoofing": "Tail to Tail housing asbestos roofing",
+    "overhangToPreventRain": "Overhang to prevent rain",
+    "tailToTailSystemOfHousing": "Tail to Tail system of housing.",
+    "wateringArrangements": "Watering arrangements",
+    "chequeredFlooringToPreventSlipping": "Chequered flooring to prevent slipping of animals",
+    "headToHeadSystemOfHousing": "Head to Head system of housing.",
+    "standingSpaceWithFeedingAndWatering": "Standing space with feeding and watering arrangements",
+    "puffSheetRoofingPerTempControl": "Puff sheet roofing per temp control",
+    "environmentalHousingForHighYielding": "Environmental housing for high yielding animals",
+    "closeViewOfPuffSheetForReflecting": "Close view of puff sheet for reflecting radiation.",
+    "looseHousingSystem": "Loose housing system",
+    "theProvisionOfHousing": "The provision of housing",
+    "isNecessaryDuring": " is necessary during adverse environmental conditions which buffer or neutralize climatic factors to reduce stress on their performance. The house system also depends on breed, age, physiologic status, climatic conditions etc..",
+    "theLocally": "The locally available housing materials should be procured to reduce cost. To a possible extent, the cost involved in housing should be minimum and more amount should be spared for feeding of animals."
+  },
+  "organicDairy": {
+    "organicFarm": "Organic Farm",
+    "gomutraCollectionOrganicFlooring": "Gomutra collection organic flooring",
+    "animalShed": "Animal Shed",
+    "organicDairy": "Organic Dairy",
+    "organicDairying": "Organic Dairying",
+    "isAnEnvironmentalFriendlyMethod": "Organic dairying is an environmental friendly method of fodder and livestock production without use of synthetic fertilizers growth hormones, antibiotics, chemical drugs, synthetic pesticides. The principle of organic forming is",
+    "sustainableEcologicallySound": "sustainable, ecologically sound and viable, socially justified and humane",
+    "productionSystem": "production system"
+  },
+  "preventiveHealthCare": {
+    "preventiveHealthCare": "Preventive Health Care",
+    "correctDosageIsImportantForSpraying": "Correct dosage is important for spraying.",
+    "vaccinationOfCattle": "Vaccination of cattle.",
+    "sprayingOfCrossbredCow": "Spraying of crossbred cow",
+    "vaccinationOfBuffaloe": "Vaccination of buffaloe",
+    "preventionIsBetterThanCure": "Prevention is better than cure.",
+    "preventionIsBetterThanCureDescription": "The animals are to be protected against external and internal parasites, apart from infectious diseases. All the animals in the herd and all the animals in the villages are to be protected against infectious diseases by timely vaccination every year without fail."
+  },
+  "sahiwalCalves": {
+    "sahiwal": "Sahiwal",
+    "sahiwalDescription": " is a breed of Zebu cattle which primarily is used in dairy production. Sahiwal originated from the Sahiwal district of Punjab province in Pakistan. Good Management of Sahiwal calves at LPM Department, College of Veterinary College Tirupati."
+  },
+  "selectionOfGoodAnimals": {
+    "selectionOfGoodAnimals": "Selection of Good Animals",
+    "selection": "Selection",
+    "selectionOfGoodAnimalsDescription": "Selection of good animals is foundation for good milk production and viable dairy enterprise. The following pictures shows the points to be kept in mind during the process of selection.",
+    "pictureOfGoodDairyAnimal": "Picture of good dairy animal",
+    "wedgeShapedBody": "Wedge shaped body",
+    "smoothShiningCoat": "Smooth shining coat",
+    "shortNeck": "Short neck",
+    "largeVoluminousUdder": "Large voluminous udder",
+    "squarelyPlacedTeats": "Squarely placed teats",
+    "goodCapillaryNetwork": "Good capillary network of blood vessels on udder"
+  },
+  "vermiComposting": {
+    "vermiComposting": "Vermi Composting",
+    "vermiCompostingDescription": " is a method of preparing low cost fertilizers utilizing the earthworm, the friend of farmer. The different types of Vermi Composting are shown below."
+  },
+  "wallowingTank": {
+    "wallowingTank": "Wallowing Tank",
+    "wallowingTankDescription": " The following picture shows the different stages of preparation of Wallowing Tank especially for buffaloes."
+  }
+}

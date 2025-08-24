@@ -1,0 +1,525 @@
+import React from "react";
+import {
+  StyleSheet,
+  Text,
+  View,
+  ScrollView,
+  Platform,
+  Image,
+  Button,
+} from "react-native";
+import { ImageSlider } from "react-native-image-slider-banner";
+import Press from "../../ui/Press";
+import { Context } from "../../store/Context";
+import { useContext } from "react";
+
+// import { SliderBox } from "react-native-image-slider-box";
+import {
+  PlayfairDisplay_400Regular,
+  PlayfairDisplay_400Regular_Italic,
+  PlayfairDisplay_500Medium,
+  PlayfairDisplay_500Medium_Italic,
+  PlayfairDisplay_600SemiBold,
+  PlayfairDisplay_600SemiBold_Italic,
+  PlayfairDisplay_700Bold,
+  PlayfairDisplay_700Bold_Italic,
+  PlayfairDisplay_800ExtraBold,
+  PlayfairDisplay_800ExtraBold_Italic,
+  PlayfairDisplay_900Black,
+  PlayfairDisplay_900Black_Italic,
+  useFonts,
+} from "@expo-google-fonts/playfair-display";
+import * as SplashScreen from "expo-splash-screen";
+import { useEffect } from "react";
+import { Dimensions } from "react-native";
+import { AuthContext } from "../../store/auth-context";
+import i18n from "../../localization/i18n";
+import { useLanguage } from "../../store/LanguageProvider";
+
+const images = [
+  require("../../assets/images/cowAndCalf.jpg"),
+  require("../../assets/images/cattle.jpg"),
+  require("../../assets/images/Emu3.jpg"),
+  require("../../assets/images/sheep1.jpg"),
+  require("../../assets/images/calf1.jpg"),
+  // "https://source.unsplash.com/1024x768/?nature",
+  // "https://source.unsplash.com/1024x768/?water",
+  // "https://source.unsplash.com/1024x768/?tree",
+];
+
+// const quotes1 = [
+//   require("../../assets/images/quote1.jpeg"),
+//   require("../../assets/images/quote2.jpeg"),
+//   require("../../assets/images/quote3.jpeg"),
+//   require("../../assets/images/quote4.jpeg"),
+//   require("../../assets/images/quote5.jpeg"),
+//   require("../../assets/images/quote6.jpeg"),
+//   require("../../assets/images/quote7.jpeg"),
+//   require("../../assets/images/quote8.jpeg"),
+//   require("../../assets/images/quote9.jpeg"),
+//   require("../../assets/images/quote10.jpeg"),
+//   require("../../assets/images/quote11.jpeg"),
+//   require("../../assets/images/quote12.jpeg"),
+//   require("../../assets/images/quote13.jpeg"),
+//   require("../../assets/images/quote14.jpeg"),
+//   require("../../assets/images/quote15.jpeg"),
+//   require("../../assets/images/quote16.jpeg"),
+//   require("../../assets/images/quote17.jpeg"),
+// ];
+
+const data = [
+  {
+    img: require("../../assets/images/a1.jpg"),
+  },
+  {
+    img: require("../../assets/images/a2.jpg"),
+  },
+  // {
+  //   img: require("../../assets/images/a3.jpg"),
+  // },
+  {
+    img: require("../../assets/images/a4.jpg"),
+  },
+  {
+    img: require("../../assets/images/a5.jpg"),
+  },
+  {
+    img: require("../../assets/images/a6.jpeg"),
+  },
+  {
+    img: require("../../assets/images/a7.jpeg"),
+  },
+  // {
+  //   img: require("../../assets/images/a8.jpeg"),
+  // },
+];
+
+const quotes = [
+  {
+    img: require("../../assets/images/quote1.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote2.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote3.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote4.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote5.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote6.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote7.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote8.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote9.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote10.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote11.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote12.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote13.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote14.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote15.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote16.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote17.jpeg"),
+  },
+];
+
+const quotesTelugu = [
+  {
+    img: require("../../assets/images/quote1T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote2T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote3T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote4T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote5T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote6T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote7T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote8T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote9T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote10T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote11T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote12T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote13T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote14T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote15T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote16T.jpeg"),
+  },
+  {
+    img: require("../../assets/images/quote17T.jpeg"),
+  },
+];
+
+const { width, height } = Dimensions.get("window");
+export default function Welcome() {
+  const { language } = useLanguage();
+
+  let [fontsLoaded] = useFonts({
+    PlayfairDisplay_400Regular,
+    PlayfairDisplay_500Medium,
+    PlayfairDisplay_600SemiBold,
+    PlayfairDisplay_700Bold,
+    PlayfairDisplay_800ExtraBold,
+    PlayfairDisplay_900Black,
+    PlayfairDisplay_400Regular_Italic,
+    PlayfairDisplay_500Medium_Italic,
+    PlayfairDisplay_600SemiBold_Italic,
+    PlayfairDisplay_700Bold_Italic,
+    PlayfairDisplay_800ExtraBold_Italic,
+    PlayfairDisplay_900Black_Italic,
+  });
+  // const { name, phoneNumber, setName } = useContext(Context);
+  const context = useContext(Context);
+  const authCtx = useContext(AuthContext);
+  // const { name, phoneNumber, city } = context;
+
+  useEffect(() => {
+    async function prepare() {
+      await SplashScreen.preventAutoHideAsync();
+    }
+    prepare();
+  }, []);
+
+  if (!fontsLoaded) {
+    return undefined;
+  } else {
+    SplashScreen.hideAsync();
+  }
+
+  function click() {
+    console.log("name in welcome page" + context.name);
+    console.log("city " + context.city);
+    console.log("phone " + context.phoneNumber);
+  }
+  return (
+    <ScrollView style={styles.container}>
+      <View>
+        <Text style={[styles.highlight]}>
+          {" "}
+          {i18n.t("dashboard.veterinary")}{" "}
+        </Text>
+        {/* <Text style={{ color: "black" }}>name is {authCtx.otpLoginName}</Text> */}
+        {/* <Button title="yes" onPress={click}>
+          yes
+        </Button> */}
+        {/* <Text>{context.phoneNumber}</Text> */}
+      </View>
+      <View>
+        <View>
+          <Text style={styles.intro}>
+            {"    "}
+            {i18n.t("dashboard.veterinaryDescription")}
+          </Text>
+        </View>
+      </View>
+
+      <View
+        style={{
+          // width: "95%",
+          //  padding: "5%",
+          // paddingTop: 0,
+          borderRadius: 15,
+          // elevation: 4,
+          margin: 20,
+          marginLeft: 0,
+          overflow: Platform.OS === "android" ? "hidden" : "visible",
+        }}
+      >
+        <ImageSlider
+          localImg={true}
+          data={data}
+          autoPlay
+          closeIconColor="#fff"
+          // previewImageContainerStyle={{ padding: 20 }}
+          // previewImageStyle={{
+          //   width: 90,
+          // }}
+          caroselImageContainerStyle={{
+            paddingHorizontal: 25,
+            // margin: 10s,
+            // backgroundColor: "blue",
+            // width: "50%",
+          }}
+          caroselImageStyle={{
+            resizeMode: "cover",
+            height: 220,
+            width: 360,
+            borderRadius: 15,
+          }}
+          activeIndicatorStyle={{
+            height: 6,
+            width: 20,
+            backgroundColor: "grey",
+          }}
+          inActiveIndicatorStyle={{ height: 9, width: 9 }}
+          indicatorContainerStyle={{ marginBottom: -15 }}
+        />
+      </View>
+
+      {/* <SliderBox
+        images={images}
+        autoplayInterval={3000}
+        sliderBoxHeight={height < 1100 ? 220 : 440}
+        onCurrentImagePressed={(index) =>
+          console.warn(`image ${index} pressed`)
+        }
+        resizeMethod={"resize"}
+        resizeMode={"cover"}
+        paginationBoxVerticalPadding={20}
+        ImageComponentStyle={{ borderRadius: 15, width: "90%", marginTop: 5 }}
+        imageLoadingColor="#2196F3"
+        paginationBoxStyle={{
+          position: "absolute",
+          bottom: 0,
+          padding: 0,
+          alignItems: "center",
+          alignSelf: "center",
+          justifyContent: "center",
+          paddingVertical: 10,
+        }}
+        dotStyle={{
+          width: 5,
+          height: 5,
+          borderRadius: 5,
+          marginHorizontal: 0,
+          padding: 0,
+          margin: 0,
+          backgroundColor: "rgba(128, 128, 128, 0.92)",
+        }}
+        autoplay
+        circleLoop
+        dotColor="#fd7d06eb"
+      /> */}
+      <View
+        style={[
+          styles.highlightBack,
+          { marginHorizontal: "5%", marginVertical: "-1%" },
+        ]}
+      >
+        <Text style={[styles.testimonal, { color: "#b00505", fontSize: 16 }]}>
+          {" "}
+          {i18n.t("dashboard.testimonials")}{" "}
+        </Text>
+        <View>
+          <Text style={[styles.intro]}>
+            {i18n.t("dashboard.testimonialsDescription")}
+          </Text>
+        </View>
+      </View>
+      <View>
+        {/* <View
+          style={[
+            styles.highlightBack,
+            {
+              padding: 0,
+              marginHorizontal: "5%",
+              backgroundColor: "#0ac98990",
+            },
+          ]}
+        >
+          <Text style={[styles.highlight, { fontSize: 16, color: "black" }]}>
+            Some
+            <Text style={{ color: "#b00505", fontSize: 16 }}> famous </Text>
+            Quotations
+          </Text>
+        </View> */}
+        {/* <SliderBox
+          images={quotes}
+          autoplayInterval={5000}
+          sliderBoxHeight={height < 1100 ? 60 : 115}
+          onCurrentImagePressed={(index) =>
+            console.warn(`image ${index} pressed`)
+          }
+          resizeMethod={"resize"}
+          resizeMode={"cover"}
+          paginationBoxVerticalPadding={20}
+          ImageComponentStyle={{ borderRadius: 15, width: "90%", marginTop: 5 }}
+          imageLoadingColor="#2196F3"
+          paginationBoxStyle={{
+            position: "absolute",
+            bottom: 0,
+            padding: 0,
+            alignItems: "center",
+            alignSelf: "center",
+            justifyContent: "center",
+            paddingVertical: 10,
+          }}
+          dotStyle={{
+            width: 0,
+            height: 0,
+            borderRadius: 5,
+            marginHorizontal: 0,
+            padding: 0,
+            margin: 0,
+            backgroundColor: "rgba(128, 128, 128, 0.92)",
+          }}
+          autoplay
+          circleLoop
+          dotColor="#fd7d06eb"
+        /> */}
+
+        <ImageSlider
+          localImg={true}
+          data={language === "te" ? quotesTelugu : quotes}
+          autoPlay
+          closeIconColor="#fff"
+          previewImageContainerStyle={{ padding: 20 }}
+          timer={4000}
+          caroselImageContainerStyle={{ padding: 20 }}
+          caroselImageStyle={{
+            resizeMode: "cover",
+            height: height < 1100 ? 60 : 115,
+            borderRadius: 15,
+            width: Platform.OS === "android" ? 320 : 350,
+          }}
+          activeIndicatorStyle={{
+            height: 0,
+            width: 0,
+            backgroundColor: "grey",
+          }}
+          inActiveIndicatorStyle={{ height: 0, width: 0 }}
+          indicatorContainerStyle={{ marginBottom: "5%" }}
+        />
+      </View>
+
+      <View style={styles.press}>
+        <Press page="Animals">
+          <View style={[styles.imageContainer]}>
+            <View style={styles.cardPicContainer}>
+              <Image
+                style={styles.cardPic}
+                source={
+                  language === "te"
+                    ? require("../../assets/images/animalsTelugu.jpg")
+                    : require("../../assets/images/animals2.jpg")
+                }
+              />
+            </View>
+          </View>
+        </Press>
+      </View>
+    </ScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    marginTop: "1%",
+    marginBottom: "5%",
+  },
+  // slider: {
+  //   // marginVertical: "1%",
+  //   height: "100",
+  // },
+  intro: {
+    fontFamily: "PlayfairDisplay_500Medium_Italic",
+    textAlign: "center",
+    lineHeight: 19,
+    marginHorizontal: 15,
+    marginVertical: "1%",
+    fontSize: width < 700 ? 14 : 16,
+  },
+  highlight: {
+    paddingVertical: 15,
+    color: "#a12c01",
+    fontSize: 16,
+    fontWeight: "800",
+    // fontFamily: "PlayfairDisplay_700Bold_Italic",
+    textAlign: "center",
+  },
+  imageContainer: {
+    elevation: 4,
+    overflow: Platform.OS === "android" ? "hidden" : "visible",
+    shadowColor: "black",
+    shadowOpacity: 0.35,
+    shadowOffset: { width: 2, height: 4 },
+    shadowRadius: 4,
+  },
+  highlightBack: {
+    padding: 12,
+    backgroundColor: "#0ac98990",
+    alignItems: "center",
+    borderRadius: 8,
+    marginVertical: 10,
+    overflow: "hidden",
+  },
+  testimonal: {
+    color: "#db3c03",
+    fontSize: 14,
+    fontFamily: "PlayfairDisplay_700Bold_Italic",
+    textAlign: "center",
+    marginBottom: 10,
+  },
+  button: {
+    flex: 1,
+  },
+  buttonPressed: {
+    opacity: 0.5,
+  },
+
+  cardPic: {
+    width: "100%",
+    height: height < 1100 ? 135 : 350,
+    marginHorizontal: 20,
+    opacity: 1,
+    borderRadius: 12,
+    marginBottom: 20,
+  },
+  cardPicContainer: {
+    // flex: 1,
+    width: "90%",
+  },
+});

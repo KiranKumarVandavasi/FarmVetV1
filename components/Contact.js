@@ -1,0 +1,212 @@
+// Make Phone Call, Send SMS or Email Using React Native Communication
+// https://aboutreact.com/make-phone-call-send-sms-or-email-using-react-native-communication/
+
+// import React in our code
+import React from "react";
+
+// import all the components we are going to use
+import {
+  SafeAreaView,
+  StyleSheet,
+  View,
+  ScrollView,
+  Text,
+  TouchableOpacity,
+} from "react-native";
+import { Entypo, MaterialCommunityIcons } from "@expo/vector-icons";
+import i18n from "../localization/i18n";
+
+// 1. Either import the whole module
+import Communications from "react-native-communications";
+import Icon from "../ui/Icons";
+/* 2. Or import single methods
+ import {
+  phonecall,
+  email,
+  text,
+  web
+} from 'react-native-communications';*/
+
+const Contact = () => {
+  return (
+    <ScrollView style={styles.container}>
+      <SafeAreaView>
+        <View style={[styles.widget, { paddingTop: 30, marginTop: 30 }]}>
+          <Text style={[styles.widgetText, { fontSize: 18 }]}>
+            {i18n.t("contact.drYravindraReddy")}
+          </Text>
+          <Text style={styles.widgetText}>
+            {i18n.t("contact.deptOfLivestockProductionManagement")}
+          </Text>
+          <Text style={styles.widgetText}>
+            {i18n.t("contact.collegeOfVeterinaryScience")}
+          </Text>
+          <Text style={styles.widgetText}>
+            {i18n.t("contact.tirupatiAndhraPradesh")}
+          </Text>
+          <Text style={styles.widgetText}>{i18n.t("contact.india517502")}</Text>
+        </View>
+
+        <View style={[styles.widget, { paddingTop: 30 }]}>
+          <TouchableOpacity
+            activeOpacity={0.7}
+            style={styles.buttonStyle}
+            onPress={() => Communications.phonecall("9182141058", true)}
+          >
+            <View style={styles.widgetRow}>
+              <Text style={[styles.widgetText, { paddingBottom: 15 }]}>
+                (0877) 2248621-313
+              </Text>
+              <Entypo name="phone" size={25} color={"#0b5791"} />
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            activeOpacity={0.7}
+            style={styles.buttonStyle}
+            onPress={() => Communications.phonecall("9182141058", true)}
+          >
+            <View style={styles.widgetRow}>
+              <Text style={[styles.widgetText, { paddingBottom: 15 }]}>
+                Fax:0877-2249563
+              </Text>
+              <Entypo name="phone" size={25} color={"#0b5791"} />
+            </View>
+          </TouchableOpacity>
+
+          {/* Mail: email(to, cc, bcc, subject, body) */}
+
+          <TouchableOpacity
+            activeOpacity={0.7}
+            style={styles.buttonStyle}
+            onPress={() =>
+              Communications.email(
+                ["yeddularavi88@gmail.com", "rajeshsirigiri9@gmail.com"],
+                null,
+                null,
+                "Demo Subject",
+                "Demo Content for the mail"
+              )
+            }
+          >
+            <View style={styles.widgetRow}>
+              <Text style={[styles.widgetText, { paddingBottom: 15 }]}>
+                yeddularavi88@gmail.com
+              </Text>
+              <Entypo name="mail" size={25} color={"#0b5791"} />
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            activeOpacity={0.7}
+            style={styles.buttonStyle}
+            onPress={() => Communications.text("9182141058")}
+          >
+            <View style={styles.widgetRow}>
+              <Text style={[styles.widgetText]}>
+                {i18n.t("contact.SendAText")}
+              </Text>
+              <MaterialCommunityIcons
+                name="message-reply-text-outline"
+                size={25}
+                color={"#0b5791"}
+              />
+            </View>
+          </TouchableOpacity>
+
+          {/* Web: web(address = null)*/}
+          {/* <TouchableOpacity
+          activeOpacity={0.7}
+          style={styles.buttonStyle}
+          onPress={() => Communications.web("https://aboutreact.com")}
+        >
+          <Text style={styles.widgetText}>Open AboutReact</Text> 
+        </TouchableOpacity>*/}
+        </View>
+        <View
+          style={[styles.widget, styles.widgetRow, { alignItems: "center" }]}
+        >
+          <TouchableOpacity
+            activeOpacity={0.7}
+            style={styles.buttonStyle}
+            onPress={() =>
+              Communications.web(
+                "https://www.youtube.com/@holisticanimalfarming7026"
+              )
+            }
+          >
+            <MaterialCommunityIcons
+              name="youtube"
+              size={30}
+              color={"#c02710"}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.7}
+            style={styles.buttonStyle}
+            onPress={() => Communications.web("https://instagram.com")}
+          >
+            <Entypo name="instagram" size={23} color={"#9f0297"} />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.7}
+            style={styles.buttonStyle}
+            onPress={() =>
+              Communications.web("https://holisticanimalfarming.com/")
+            }
+          >
+            <MaterialCommunityIcons name="web" size={27} color={"#444343"} />
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            activeOpacity={0.7}
+            style={styles.buttonStyle}
+            onPress={() => Communications.web("https://twitter.com")}
+          >
+            <Entypo name="twitter" size={25} color={"#12608a"} />
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.7}
+            style={styles.buttonStyle}
+            onPress={() => Communications.web("https://facebook.com")}
+          >
+            <Entypo name="facebook" size={24} color={"#085a86"} />
+          </TouchableOpacity>
+        </View>
+      </SafeAreaView>
+    </ScrollView>
+  );
+};
+
+export default Contact;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "white",
+    padding: 10,
+  },
+  widget: {
+    backgroundColor: "#90c7ee",
+    marginHorizontal: 25,
+    marginBottom: 25,
+    padding: 20,
+    borderRadius: 10,
+    // paddingTop: 30,
+  },
+  widgetText: {
+    fontSize: 16,
+    fontWeight: "600",
+    marginBottom: 10,
+  },
+
+  widgetRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  titleText: {
+    fontSize: 22,
+    textAlign: "center",
+    fontWeight: "bold",
+  },
+});

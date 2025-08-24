@@ -1,0 +1,53 @@
+# Node
+node_modules/
+npm-debug.*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+dist/
+
+# Android
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/local.properties
+/android/*.iml
+
+# iOS (if you add ios folder later)
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcuserstate
+
+# Keystore / Certificates (important: never commit secrets)
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# VSCode / JetBrains IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+AppData/
+
+# Misc
+*.orig.*
+*.aodl
+*.odl
+
+# Metro (React Native bundler)
+.metro-health-check*
